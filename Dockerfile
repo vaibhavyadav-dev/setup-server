@@ -1,4 +1,4 @@
 FROM ubuntu
 COPY customaction.sh .
-RUN chmod +x customaction.sh
-ENTRYPOINT ["/customaction.sh"]
+RUN chmod +x setup.sh
+ENTRYPOINT ["/setup.sh"]
